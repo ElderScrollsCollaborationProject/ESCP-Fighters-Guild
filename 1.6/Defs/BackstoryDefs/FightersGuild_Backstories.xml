@@ -93,4 +93,92 @@
         </spawnCategories>
     </BackstoryDef>
 
+    <BackstoryDef>
+        <defName>ESCP_Backstory_FightersGuild_SmithsHelper_Child</defName>
+        <identifier>ESCP_Backstory_FightersGuild_SmithsHelper_Child</identifier>
+        <slot>Childhood</slot>
+        <title>smith's helper</title>
+        <titleShort>helper</titleShort>
+        <description>[PAWN_nameDef] spent [PAWN_possessive] childhood working the bellows in a village forge. [PAWN_pronoun] learned how a blade is made long before [PAWN_pronoun] learned how to use one, and the smith let [PAWN_objective] practice on the rejects.</description>
+        <skillGains>
+            <Crafting>2</Crafting>
+            <Melee>2</Melee>
+        </skillGains>
+        <spawnCategories>
+            <li>ESCP_Backstory_FightersGuild_Child</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_FightersGuild_CaravanChild_Child</defName>
+        <identifier>ESCP_Backstory_FightersGuild_CaravanChild_Child</identifier>
+        <slot>Childhood</slot>
+        <title>caravan child</title>
+        <titleShort>caravan</titleShort>
+        <description>[PAWN_nameDef] grew up riding on the back of a merchant wagon, watching the hired guards more than the road. By ten [PAWN_pronoun] could string a bow and tell which travelers were worth worrying about.</description>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Animals>1</Animals>
+            <Social>1</Social>
+        </skillGains>
+        <spawnCategories>
+            <li>ESCP_Backstory_FightersGuild_Child</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_FightersGuild_Bodyguard_Adult</defName>
+        <identifier>ESCP_Backstory_FightersGuild_Bodyguard_Adult</identifier>
+        <slot>Adulthood</slot>
+        <title>hired bodyguard</title>
+        <titleShort>bodyguard</titleShort>
+        <description>[PAWN_nameDef] took the guild's escort contracts, standing behind merchants and minor nobles who were sure someone wanted them dead. Usually nobody did. The few times someone did, [PAWN_pronoun] earned [PAWN_possessive] pay.</description>
+        <skillGains>
+            <Melee>5</Melee>
+            <Social>3</Social>
+        </skillGains>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <spawnCategories>
+            <li>ESCP_Backstory_FightersGuild_Fighter</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_FightersGuild_VerminHunter_Adult</defName>
+        <identifier>ESCP_Backstory_FightersGuild_VerminHunter_Adult</identifier>
+        <slot>Adulthood</slot>
+        <title>vermin hunter</title>
+        <titleShort>hunter</titleShort>
+        <description>The guild sends its newest members to clear cellars and sewers, and [PAWN_nameDef] never quite moved on from it. [PAWN_pronoun] has killed more skeevers, mudcrabs and giant rats than anyone [PAWN_pronoun] knows, and has the scars to prove most of them fought back.</description>
+        <skillGains>
+            <Melee>3</Melee>
+            <Shooting>4</Shooting>
+        </skillGains>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <spawnCategories>
+            <li>ESCP_Backstory_FightersGuild_Fighter</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_FightersGuild_Trainer_Adult</defName>
+        <identifier>ESCP_Backstory_FightersGuild_Trainer_Adult</identifier>
+        <slot>Adulthood</slot>
+        <title>guild trainer</title>
+        <titleShort>trainer</titleShort>
+        <description>[PAWN_nameDef] runs the practice yard at a guildhall. [PAWN_pronoun] teaches recruits to hold a shield and keep their feet, and sends home the ones who will only get themselves killed. Most of the guild's fighters learned something from [PAWN_objective] at some point.</description>
+        <skillGains>
+            <Melee>6</Melee>
+            <Social>3</Social>
+            <Medicine>1</Medicine>
+        </skillGains>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <spawnCategories>
+            <li>ESCP_Backstory_FightersGuild_Fighter</li>
+        </spawnCategories>
+    </BackstoryDef>
+
 </Defs>

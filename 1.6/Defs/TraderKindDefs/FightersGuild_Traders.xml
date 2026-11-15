@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <TraderKindDef>
+        <defName>ESCP_Caravan_FightersGuild_Quartermaster</defName>
+        <label>guild quartermaster</label>
+
+        <stockGenerators>
+
+            <li Class="StockGenerator_Tag">
+                <tradeTag>MeleeWeapon</tradeTag>
+                <countRange>6~14</countRange>
+            </li>
+
+            <li Class="StockGenerator_Tag">
+                <tradeTag>RangedWeapon</tradeTag>
+                <countRange>3~8</countRange>
+            </li>
+
+            <li Class="StockGenerator_Tag">
+                <tradeTag>Apparel</tradeTag>
+                <countRange>4~10</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>MedicineHerbal</thingDef>
+                <countRange>20~60</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>MedicineIndustrial</thingDef>
+                <countRange>5~20</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Pemmican</thingDef>
+                <countRange>40~120</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>MealSurvivalPack</thingDef>
+                <countRange>10~30</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Steel</thingDef>
+                <countRange>60~160</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Leather_Plain</thingDef>
+                <countRange>40~100</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Silver</thingDef>
+                <countRange>200~600</countRange>
+            </li>
+
+        </stockGenerators>
+
+    </TraderKindDef>
+
+</Defs>

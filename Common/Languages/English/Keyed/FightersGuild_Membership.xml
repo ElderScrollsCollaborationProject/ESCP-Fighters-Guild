@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+    <ESCP_FightersGuild_Enlist_Letter_Title>Joined the Fighters Guild</ESCP_FightersGuild_Enlist_Letter_Title>
+    <ESCP_FightersGuild_Enlist_Letter_Label>Your colony now stands with the Fighters Guild. Open the guild ledger at any settlement hosting them to draw pay, take work and see your standing.</ESCP_FightersGuild_Enlist_Letter_Label>
+    <ESCP_FightersGuild_Enlist_Button_Label>Join the Fighters Guild</ESCP_FightersGuild_Enlist_Button_Label>
+    <ESCP_FightersGuild_Enlist_Button_Desc>Sign on with the Fighters Guild. Honest contracts, honest pay, and a chapter house in every city that will have one.</ESCP_FightersGuild_Enlist_Button_Desc>
+    <ESCP_FightersGuild_Enlist_Requrements_Not_Satisfied>The Fighters Guild does not trust you yet. Standing: {0}.</ESCP_FightersGuild_Enlist_Requrements_Not_Satisfied>
+    <ESCP_FightersGuild_Enlisted_To_Hostile_Faction>You cannot join the Fighters Guild while your colony is at odds with it.</ESCP_FightersGuild_Enlisted_To_Hostile_Faction>
+    <ESCP_FightersGuild_Enlisted_With_Key>Member of the Fighters Guild</ESCP_FightersGuild_Enlisted_With_Key>
+    <ESCP_FightersGuild_Missions_Label>Contracts</ESCP_FightersGuild_Missions_Label>
+    <ESCP_FightersGuild_Missions_Desc>See what work the guild has posted.</ESCP_FightersGuild_Missions_Desc>
+    <ESCP_FightersGuild_Menu_Missions_Desc>Open contracts posted by the Fighters Guild. Accepting one costs nothing; payment comes when it is done.</ESCP_FightersGuild_Menu_Missions_Desc>
+    <ESCP_FightersGuild_Menu_Missions_Select_Quest>Select contract</ESCP_FightersGuild_Menu_Missions_Select_Quest>
+    <ESCP_FightersGuild_Menu_Missions_Start_Quest>Accept</ESCP_FightersGuild_Menu_Missions_Start_Quest>
+    <ESCP_FightersGuild_Menu_Missions_Collect_Bounty>Collect</ESCP_FightersGuild_Menu_Missions_Collect_Bounty>
+    <ESCP_FightersGuild_Salary_Label>Draw stipend</ESCP_FightersGuild_Salary_Label>
+    <ESCP_FightersGuild_Salary_Desc>Collect your share from the guild's steward.</ESCP_FightersGuild_Salary_Desc>
+    <ESCP_FightersGuild_Provisions_Label>Draw supplies</ESCP_FightersGuild_Provisions_Label>
+    <ESCP_FightersGuild_Provisions_Desc>Take what the guild sets aside for its members on the road.</ESCP_FightersGuild_Provisions_Desc>
+    <ESCP_FightersGuild_Storage_Label>Guild lockbox</ESCP_FightersGuild_Storage_Label>
+    <ESCP_FightersGuild_Storage_Desc>Leave goods in the guild's keeping and collect them from any hall.</ESCP_FightersGuild_Storage_Desc>
+    <ESCP_FightersGuild_Resign_Menu_Text>Leave the Fighters Guild? Your standing will suffer for it.</ESCP_FightersGuild_Resign_Menu_Text>
+    <ESCP_FightersGuild_Resign_Letter_Title>Left the Fighters Guild</ESCP_FightersGuild_Resign_Letter_Title>
+    <ESCP_FightersGuild_Resign_Letter_Label>Your colony has left the Fighters Guild. Its doors are closed to you for now.</ESCP_FightersGuild_Resign_Letter_Label>
+    <ESCP_FightersGuild_Resign_Button_Label>Leave the guild</ESCP_FightersGuild_Resign_Button_Label>
+    <ESCP_FightersGuild_Resign_Button_Desc>Give up your membership and every rank that goes with it.</ESCP_FightersGuild_Resign_Button_Desc>
+    <ESCP_FightersGuild_Kick_Out_Letter_Title>Expelled from the Fighters Guild</ESCP_FightersGuild_Kick_Out_Letter_Title>
+    <ESCP_FightersGuild_Kick_Out_Label_Title>Relations have fallen too far. The Fighters Guild has struck your colony from its books.</ESCP_FightersGuild_Kick_Out_Label_Title>
+    <ESCP_FightersGuild_Work_0_Label>Guard Caravans</ESCP_FightersGuild_Work_0_Label>
+    <ESCP_FightersGuild_Work_0_Desc>Ride as a hired guard on local trade roads. Tiring work, but steady coin.</ESCP_FightersGuild_Work_0_Desc>
+    <ESCP_FightersGuild_Work_1_Label>Train in the Yard</ESCP_FightersGuild_Work_1_Label>
+    <ESCP_FightersGuild_Work_1_Desc>Spend the days on the practice yard under a veteran's eye.</ESCP_FightersGuild_Work_1_Desc>
+
+</LanguageData>

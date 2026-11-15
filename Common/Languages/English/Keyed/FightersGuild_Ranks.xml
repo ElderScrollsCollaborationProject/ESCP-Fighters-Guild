@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+    <ESCP_Rank_Mentor_FightersGuild>Trainer:</ESCP_Rank_Mentor_FightersGuild>
+    <ESCP_Rank_NoMentor_FightersGuild>No trainer</ESCP_Rank_NoMentor_FightersGuild>
+    <ESCP_Rank_Promote_FightersGuild>Promote</ESCP_Rank_Promote_FightersGuild>
+    <ESCP_Rank_NextRank_FightersGuild>Next rank</ESCP_Rank_NextRank_FightersGuild>
+    <ESCP_Rank_ChoosePath_FightersGuild>Choose a path</ESCP_Rank_ChoosePath_FightersGuild>
+    <ESCP_Rank_DaysInRank_FightersGuild>{0} days at this rank in the Guild</ESCP_Rank_DaysInRank_FightersGuild>
+    <ESCP_Rank_Promoted_Title_FightersGuild>Promoted: {0}</ESCP_Rank_Promoted_Title_FightersGuild>
+    <ESCP_Rank_Promoted_Text_FightersGuild>The Guildmaster has signed off on it. {0} now stands as {1} of the Fighters Guild.</ESCP_Rank_Promoted_Text_FightersGuild>
+    <ESCP_Rank_Demoted_Title_FightersGuild>Demoted: {0}</ESCP_Rank_Demoted_Title_FightersGuild>
+    <ESCP_Rank_Demoted_Expedition_FightersGuild>{0} failed a Guild contract and was dropped from {1} to {2}.</ESCP_Rank_Demoted_Expedition_FightersGuild>
+    <ESCP_Rank_Demoted_KickedOut_FightersGuild>The Guild has cut ties with the colony. {0} is dropped from {1} to {2}.</ESCP_Rank_Demoted_KickedOut_FightersGuild>
+    <ESCP_Rank_FormUp_Message_FightersGuild>{0} forms up the members of {1}.</ESCP_Rank_FormUp_Message_FightersGuild>
+    <ESCP_Rank_Dismiss_Message_FightersGuild>{0} stands {1} down.</ESCP_Rank_Dismiss_Message_FightersGuild>
+    <ESCP_Rank_Rally_Title_FightersGuild>{0} holds the line</ESCP_Rank_Rally_Title_FightersGuild>
+    <ESCP_Rank_Rally_Text_FightersGuild>{0} shouts the Guild's old call, and every member of {1} on the field digs in.</ESCP_Rank_Rally_Text_FightersGuild>
+    <ESCP_Rank_DrillingComplete_FightersGuild>{0} and {1} finished sword practice.</ESCP_Rank_DrillingComplete_FightersGuild>
+    <ESCP_Rank_StudyingComplete_FightersGuild>{0} and {1} finished going over the contract.</ESCP_Rank_StudyingComplete_FightersGuild>
+    <ESCP_Rank_InspectionComplete_Commended_FightersGuild>{0} inspects {1}'s kit and finds it in fine order.</ESCP_Rank_InspectionComplete_Commended_FightersGuild>
+    <ESCP_Rank_InspectionComplete_Reprimanded_FightersGuild>{0} inspects {1}'s kit. The Guild has standards, and this is not it.</ESCP_Rank_InspectionComplete_Reprimanded_FightersGuild>
+    <ESCP_Rank_InspectionComplete_Passed_FightersGuild>{0} inspects {1}'s kit. Serviceable.</ESCP_Rank_InspectionComplete_Passed_FightersGuild>
+    <ESCP_Rank_InspectionComplete_NoGear_FightersGuild>{0} asks to see {1}'s kit, but there is none.</ESCP_Rank_InspectionComplete_NoGear_FightersGuild>
+    <ESCP_Rank_PunishmentAssigned_FightersGuild>{0} puts {1} on stable duty.</ESCP_Rank_PunishmentAssigned_FightersGuild>
+    <ESCP_Rank_MentorDown_Message_FightersGuild>{1} has fallen! {0} fights to make their trainer proud.</ESCP_Rank_MentorDown_Message_FightersGuild>
+    <ESCP_Rank_Suspended_Title_FightersGuild>Guild dues lapsed</ESCP_Rank_Suspended_Title_FightersGuild>
+    <ESCP_Rank_History_Enrolled_FightersGuild>Signed on with the Guild as {0}.</ESCP_Rank_History_Enrolled_FightersGuild>
+    <ESCP_Rank_History_FormedUp_FightersGuild>Formed up {0}.</ESCP_Rank_History_FormedUp_FightersGuild>
+    <ESCP_Rank_History_Inspected_FightersGuild>Inspected {0}'s kit.</ESCP_Rank_History_Inspected_FightersGuild>
+    <ESCP_Rank_History_Rallied_FightersGuild>Held the line with {0}.</ESCP_Rank_History_Rallied_FightersGuild>
+    <ESCP_Rank_History_Punished_FightersGuild>Put {0} on stable duty.</ESCP_Rank_History_Punished_FightersGuild>
+    <ESCP_Rank_History_MentorDown_FightersGuild>Trainer {0} went down in battle.</ESCP_Rank_History_MentorDown_FightersGuild>
+    <ESCP_Rank_History_MentorDied_FightersGuild>Trainer {0} has died.</ESCP_Rank_History_MentorDied_FightersGuild>
+
+</LanguageData>

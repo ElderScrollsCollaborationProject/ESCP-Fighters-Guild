@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <FactionDef ParentName="FactionBase">
+        <defName>ESCP_Faction_FightersGuild</defName>
+        <label>Fighters Guild</label>
+        <description>The Fighters Guild is a mercenary brotherhood with halls across the continent. Unlike the sellsword gangs that most factions deal with out of desperation, the Guild maintains a code: no theft from clients, no killing for sport, no taking contracts against fellow members. Whether that code holds depends on the chapter and the guildmaster, but the reputation does. They take contracts from towns that need pest control, caravans that need muscle, and settlements that cannot field their own garrison. The work is dangerous and rarely clean, but the pay is honest and the references impeccable.</description>
+        <colorSpectrum>
+            <li>(0.85, 0.65, 0.15)</li>
+        </colorSpectrum>
+        <pawnSingular>guild fighter</pawnSingular>
+        <pawnsPlural>guild fighters</pawnsPlural>
+        <categoryTag>Outlander</categoryTag>
+        <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+        <hidden>true</hidden>
+        <settlementGenerationWeight>0</settlementGenerationWeight>
+        <requiredCountAtGameStart>1</requiredCountAtGameStart>
+        <displayInFactionSelection>false</displayInFactionSelection>
+        <canSiege>false</canSiege>
+        <canStageAttacks>false</canStageAttacks>
+        <leaderTitle>Guildmaster</leaderTitle>
+        <factionIconPath>World/WorldObjects/Expanding/Town</factionIconPath>
+        <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+        <techLevel>Medieval</techLevel>
+        <fixedName>Fighters Guild</fixedName>
+
+        <backstoryFilters>
+            <li>
+                <categories>
+                    <li>ESCP_Backstory_FightersGuild_Child</li>
+                    <li>ESCP_Backstory_FightersGuild_Fighter</li>
+                </categories>
+                <commonality>0.8</commonality>
+            </li>
+        </backstoryFilters>
+
+        <caravanTraderKinds>
+            <li>ESCP_Caravan_FightersGuild_Quartermaster</li>
+        </caravanTraderKinds>
+
+        <visitorTraderKinds>
+            <li>ESCP_Caravan_FightersGuild_Quartermaster</li>
+        </visitorTraderKinds>
+
+        <pawnGroupMakers>
+
+            <li>
+                <kindDef>Settlement</kindDef>
+                <commonality>100</commonality>
+                <options>
+                    <ESCP_Pawnkind_FightersGuild_Member>3</ESCP_Pawnkind_FightersGuild_Member>
+                    <ESCP_Pawnkind_FightersGuild_Veteran>2</ESCP_Pawnkind_FightersGuild_Veteran>
+                    <ESCP_Pawnkind_FightersGuild_Champion>1</ESCP_Pawnkind_FightersGuild_Champion>
+                </options>
+            </li>
+
+            <li>
+                <kindDef>Peaceful</kindDef>
+                <commonality>40</commonality>
+                <options>
+                    <ESCP_Pawnkind_FightersGuild_Member>3</ESCP_Pawnkind_FightersGuild_Member>
+                    <ESCP_Pawnkind_FightersGuild_Veteran>1</ESCP_Pawnkind_FightersGuild_Veteran>
+                </options>
+            </li>
+
+            <li>
+                <kindDef>Trader</kindDef>
+                <commonality>60</commonality>
+                <options>
+                    <ESCP_Pawnkind_FightersGuild_Member>1</ESCP_Pawnkind_FightersGuild_Member>
+                </options>
+                <traders>
+                    <ESCP_Pawnkind_FightersGuild_Quartermaster>1</ESCP_Pawnkind_FightersGuild_Quartermaster>
+                </traders>
+                <carriers>
+                    <Muffalo>4</Muffalo>
+                    <Horse>2</Horse>
+                </carriers>
+            </li>
+
+        </pawnGroupMakers>
+
+        <maxPawnCostPerTotalPointsCurve>
+            <points>
+                <li>(0, 35)</li>
+                <li>(70, 50)</li>
+                <li>(700, 100)</li>
+                <li>(1300, 150)</li>
+                <li>(100000, 10000)</li>
+            </points>
+        </maxPawnCostPerTotalPointsCurve>
+        <raidLootValueFromPointsCurve>
+            <points>
+                <li>(0, 0)</li>
+                <li>(100, 20)</li>
+                <li>(1000, 75)</li>
+                <li>(3000, 100)</li>
+            </points>
+        </raidLootValueFromPointsCurve>
+
+        <modExtensions Inherit="False">
+            <li Class="ESCP.Factions.FactionExtension_BannedArrivalModes">
+                <arrivalModes>
+                    <li>EdgeDrop</li>
+                    <li>EdgeDropGroups</li>
+                    <li>CenterDrop</li>
+                    <li>RandomDrop</li>
+                </arrivalModes>
+            </li>
+        </modExtensions>
+
+    </FactionDef>
+
+</Defs>

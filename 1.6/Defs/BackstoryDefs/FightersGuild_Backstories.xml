@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_FightersGuild_StreetFighter_Child</defName>
+        <identifier>ESCP_Backstory_FightersGuild_StreetFighter_Child</identifier>
+        <slot>Childhood</slot>
+        <title>street brawler</title>
+        <titleShort>brawler</titleShort>
+        <description>[PAWN_nameDef] grew up fighting. Not for pleasure, though it was that too, but because the alternative was losing. [PAWN_pronoun] learned early that the trick was not to hit harder than anyone, but to take a hit better. By the time [PAWN_pronoun] was old enough to be recruited, [PAWN_possessive] hands already knew what they were for.</description>
+        <skillGains>
+            <Melee>3</Melee>
+            <Medicine>1</Medicine>
+        </skillGains>
+        <spawnCategories>
+            <li>ESCP_Backstory_FightersGuild_Child</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_FightersGuild_Stablehand_Child</defName>
+        <identifier>ESCP_Backstory_FightersGuild_Stablehand_Child</identifier>
+        <slot>Childhood</slot>
+        <title>stablehand</title>
+        <titleShort>stablehand</titleShort>
+        <description>[PAWN_nameDef] grew up in the stables serving a minor lord's estate, hauling feed and mending tack. The hired swords who passed through never seemed especially impressive up close, but [PAWN_nameDef] watched how they moved and remembered everything. When the estate folded and the work dried up, [PAWN_pronoun] already knew which guild hall to walk into.</description>
+        <skillGains>
+            <Animals>2</Animals>
+            <Melee>2</Melee>
+        </skillGains>
+        <spawnCategories>
+            <li>ESCP_Backstory_FightersGuild_Child</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_FightersGuild_Member_Adult</defName>
+        <identifier>ESCP_Backstory_FightersGuild_Member_Adult</identifier>
+        <slot>Adulthood</slot>
+        <title>guild fighter</title>
+        <titleShort>fighter</titleShort>
+        <description>[PAWN_nameDef] has been carrying guild contracts for years: pest control in summer, escorted caravans in autumn, debt collection whenever the weather is bad enough that no one will be outside to watch. [PAWN_pronoun] does not take every contract, has turned down a few on principle, and has never missed a filing deadline. The Guildmaster considers [PAWN_objective] reliable, which is the guild's highest compliment.</description>
+        <skillGains>
+            <Melee>5</Melee>
+            <Shooting>2</Shooting>
+            <Medicine>2</Medicine>
+        </skillGains>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <spawnCategories>
+            <li>ESCP_Backstory_FightersGuild_Fighter</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_FightersGuild_Veteran_Adult</defName>
+        <identifier>ESCP_Backstory_FightersGuild_Veteran_Adult</identifier>
+        <slot>Adulthood</slot>
+        <title>guild veteran</title>
+        <titleShort>veteran</titleShort>
+        <description>[PAWN_nameDef] has been at this long enough to have their name on the public board in three different chapter halls. Most of the contracts [PAWN_pronoun] takes now are flagged as difficult or declined by everyone else. [PAWN_pronoun] does not particularly enjoy the work but is very good at it, and the guild pays well for people who come back.</description>
+        <skillGains>
+            <Melee>7</Melee>
+            <Shooting>3</Shooting>
+            <Medicine>3</Medicine>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <spawnCategories>
+            <li>ESCP_Backstory_FightersGuild_Fighter</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_FightersGuild_Champion_Adult</defName>
+        <identifier>ESCP_Backstory_FightersGuild_Champion_Adult</identifier>
+        <slot>Adulthood</slot>
+        <title>guild champion</title>
+        <titleShort>champion</titleShort>
+        <description>[PAWN_nameDef] holds the rank of Champion, the highest the Guild gives to someone still taking field contracts. The rank did not come through seniority or politics but through a very specific and well-documented series of completed assignments that the regional guildmaster eventually ran out of excuses not to recognize. [PAWN_pronoun] is not famous in the way heroes are famous. [PAWN_pronoun] is famous in the way reliable tools are famous: slowly, quietly, and mostly among the people who need them most.</description>
+        <skillGains>
+            <Melee>9</Melee>
+            <Shooting>4</Shooting>
+            <Medicine>4</Medicine>
+            <Social>3</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <spawnCategories>
+            <li>ESCP_Backstory_FightersGuild_Champion</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+</Defs>

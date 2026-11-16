@@ -56,7 +56,7 @@
             </li>
             <li Class="ESCP.Core.CharacterAppearanceDefinition">
                 <hairColor>(45, 40, 40)</hairColor>
-                <hairDef>ShortCut</hairDef>
+                <hairDef MayRequire="Ludeon.RimWorld.Anomaly">ShortCut</hairDef>
                 <headTypeDef>ESCP_HeadMerColouredEyes_Male_Average_Normal</headTypeDef>
                 <bodyTypeDef>Male</bodyTypeDef>
             </li>
@@ -146,7 +146,7 @@
             </li>
             <li Class="ESCP.Core.CharacterAppearanceDefinition">
                 <hairColor>(90, 70, 50)</hairColor>
-                <hairDef>ShortCut</hairDef>
+                <hairDef MayRequire="Ludeon.RimWorld.Anomaly">ShortCut</hairDef>
                 <headTypeDef>Male_AverageNormal</headTypeDef>
                 <bodyTypeDef>Male</bodyTypeDef>
             </li>
@@ -170,7 +170,7 @@
             </li>
             <li Class="ESCP.Core.CharacterAppearanceDefinition">
                 <hairColor>(60, 40, 25)</hairColor>
-                <hairDef>ShortCut</hairDef>
+                <hairDef MayRequire="Ludeon.RimWorld.Anomaly">ShortCut</hairDef>
                 <headTypeDef>ESCP_HeadMer_Male_Average_Normal</headTypeDef>
                 <bodyTypeDef>Male</bodyTypeDef>
             </li>
@@ -194,7 +194,7 @@
             </li>
             <li Class="ESCP.Core.CharacterAppearanceDefinition">
                 <hairColor>(170, 120, 70)</hairColor>
-                <hairDef>LongMess</hairDef>
+                <hairDef MayRequire="Ludeon.RimWorld.Anomaly">LongMess</hairDef>
                 <beardDef>Norse</beardDef>
                 <headTypeDef>Male_AverageNormal</headTypeDef>
                 <bodyTypeDef>Hulk</bodyTypeDef>
@@ -227,7 +227,7 @@
             </li>
             <li Class="ESCP.Core.CharacterAppearanceDefinition">
                 <hairColor>(70, 60, 50)</hairColor>
-                <hairDef>ShortCut</hairDef>
+                <hairDef MayRequire="Ludeon.RimWorld.Anomaly">ShortCut</hairDef>
                 <beardDef>Stubble</beardDef>
                 <headTypeDef>Male_AverageNormal</headTypeDef>
                 <bodyTypeDef>Male</bodyTypeDef>
@@ -252,7 +252,7 @@
             </li>
             <li Class="ESCP.Core.CharacterAppearanceDefinition">
                 <hairColor>(180, 130, 70)</hairColor>
-                <hairDef>LongMess</hairDef>
+                <hairDef MayRequire="Ludeon.RimWorld.Anomaly">LongMess</hairDef>
                 <beardDef>Full</beardDef>
                 <headTypeDef>Male_AverageNormal</headTypeDef>
                 <bodyTypeDef>Hulk</bodyTypeDef>
